@@ -10080,7 +10080,7 @@ let
     name = "hello-world";
     packageName = "hello-world";
     version = "1.0.0";
-    src = ./.;
+    src = ./..;
     dependencies = [
       sources."@babel/code-frame-7.0.0-beta.44"
       (sources."@babel/generator-7.0.0-beta.44" // {
